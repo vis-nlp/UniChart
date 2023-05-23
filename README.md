@@ -1,6 +1,6 @@
 # UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
 
-* Authors: Ahmed Masry*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque
+* Authors: Ahmed Masry*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
 * Paper Link: [UniChart]()
 
 ## Pretraining Dataset
@@ -36,9 +36,8 @@ You just need to do the following:
 
 | Task  | Input Prompt |
 | ------------- | ------------- |
-| Chart Question Answering  | "<chartqa>" <s_answer>  |
-| Open Chart Question Answering  | <opencqa> <s_answer>  |
-| Chart Summarization  | <opencqa> <s_answer>  |
+| Chart Question Answering  | \<chartqa\> question <s_answer>  |
+| Open Chart Question Answering  | \<opencqa\> question <s_answer>  |
 | Chart Summarization  | <summarize_chart> <s_answer>  |
 | Data Table Extraction  | <extract_data_table> <s_answer>  |
 
