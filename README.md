@@ -36,7 +36,7 @@ You just need to do the following:
 
 | Task  | Input Prompt |
 | ------------- | ------------- |
-| Chart Question Answering  | <chartqa> <s_answer>  |
+| Chart Question Answering  | "<chartqa>" <s_answer>  |
 | Open Chart Question Answering  | <opencqa> <s_answer>  |
 | Chart Summarization  | <opencqa> <s_answer>  |
 | Chart Summarization  | <summarize_chart> <s_answer>  |
