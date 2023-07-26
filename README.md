@@ -1,10 +1,10 @@
 # UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
 
-* Authors: Ahmed Masry*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
+* Authors: [Ahmed Masry](https://sites.google.com/view/ahmedmasry/)*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
 * Paper Link: [UniChart]()
 
 ## Pretraining Dataset
-Coming soon.
+The datasets will be released in a few days!
 
 
 ## UniChart Model Checkpoints
@@ -27,6 +27,15 @@ If you wish to quickly try our models, you can access our public web demoes host
 
 The input prompt for Chart summarization is **<summarize_chart>** and Data Table Generation is **<extract_data_table>**
 
+## Requirements
+
+```
+transformers==4.28.1
+pytorch-lightning==1.8.5
+datasets
+sentencepiece
+```
+Please make sure to use the **exact same version** of the **Transformers** library. We have noticed that there might be a drop in performance when using different versions of the library! 
 ## Inference
 You can easily use our models for inference with the huggingface library! 
 You just need to do the following:
@@ -80,15 +89,27 @@ print(sequence)
 
 ```
 
-## Training 
-Coming soon.
+## Finetuning 
+In order to finetune the model on the ChartQA dataset, you can edit and run the following command:
+```
+python finetune_chartqa.py --data-path "ahmed-masry/chartqa_without_images" --train-images '/content/ChartQA/ChartQA Dataset/train/png/' \
+    --valid-images '/content/ChartQA/ChartQA Dataset/val/png' --max-steps 40000 --batch-size 8 --valid-batch-size 1 --num-workers 12 --lr 5e-5 \
+    --check-val-every-n-epoch 1 --warmup-steps 100 --checkpoint-steps 7000 --checkpoint-path "ahmed-masry/unichart-base-960"
+```
 
 # Contact
-If you have any questions about this work, please contact **Ahmed Masry** using the following email addresses: **amasry17@ku.edu.tr** or **ahmed.elmasry24653@gmail.com**.
+If you have any questions about this work, please contact **[Ahmed Masry](https://sites.google.com/view/ahmedmasry/)** using the following email addresses: **amasry17@ku.edu.tr** or **ahmed.elmasry24653@gmail.com**.
 
 # Reference
 Please cite our paper if you use our models or dataset in your research. 
 
 ```
-Coming soon
+@misc{masry2023unichart,
+      title={UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning}, 
+      author={Ahmed Masry and Parsa Kavehzadeh and Xuan Long Do and Enamul Hoque and Shafiq Joty},
+      year={2023},
+      eprint={2305.14761},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
