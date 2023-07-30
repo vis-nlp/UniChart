@@ -1,11 +1,12 @@
 # UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
 
 * Authors: [Ahmed Masry](https://sites.google.com/view/ahmedmasry/)*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
-* Paper Link: [UniChart]()
+* Paper Link: [UniChart](https://arxiv.org/abs/2305.14761)
 
-## Pretraining Dataset
-The datasets will be released in a few days!
-
+## UniChart Pretraining Dataset
+Our pretraining dataset is divided into two primary components:
+1. A zip file encompassing all the images. You can access the images through this Google Drive Link: [Images](https://drive.google.com/file/d/1j5Kk51Kc5wsQyzuk2qM_WCQWYs-Kms42/view?usp=sharing)
+2. A Huggingface dataset containing the input/output pairs utilized for model pretraining. You can find the dataset here: [Huggingface Dataset](https://huggingface.co/datasets/ahmed-masry/unichart-pretrain-data)
 
 ## UniChart Model Checkpoints
 We release the checkpoints for our pretrained models as well as the finetuned checkpoints on the different downstream tasks
