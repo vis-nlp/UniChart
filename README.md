@@ -5,7 +5,7 @@
 
 ## UniChart Pretraining Dataset
 Our pretraining dataset is divided into two primary components:
-1. A zip file encompassing all the images. You can access the images through this Google Drive Link: [Images](https://drive.google.com/file/d/1j5Kk51Kc5wsQyzuk2qM_WCQWYs-Kms42/view?usp=sharing)
+1. A zip file encompassing all the images. You can access the images through this huggingface dataset: [Images](https://huggingface.co/datasets/ahmed-masry/UniChart-pretrain-images)
 2. A Huggingface dataset containing the input/output pairs utilized for model pretraining. You can find the dataset here: [Huggingface Dataset](https://huggingface.co/datasets/ahmed-masry/unichart-pretrain-data)
 
 ## UniChart Model Checkpoints
