@@ -1,6 +1,6 @@
 # UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
 
-* Authors: [Ahmed Masry](https://sites.google.com/view/ahmedmasry/)*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
+* Authors: [Ahmed Masry](https://ahmedmasryku.github.io/)*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
 * Paper Link: [UniChart](https://arxiv.org/abs/2305.14761)
 
 ## UniChart Pretraining Dataset
@@ -99,7 +99,7 @@ python finetune_chartqa.py --data-path "ahmed-masry/chartqa_without_images" --tr
 ```
 
 # Contact
-If you have any questions about this work, please contact **[Ahmed Masry](https://sites.google.com/view/ahmedmasry/)** using the following email addresses: **amasry17@ku.edu.tr** or **ahmed.elmasry24653@gmail.com**.
+If you have any questions about this work, please contact **[Ahmed Masry](https://ahmedmasryku.github.io/)** using the following email addresses: **amasry17@ku.edu.tr** or **ahmed.elmasry24653@gmail.com**.
 
 # Reference
 Please cite our paper if you use our models or dataset in your research. 
