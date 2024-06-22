@@ -2,7 +2,7 @@
 
 * Authors: [Ahmed Masry](https://ahmedmasryku.github.io/)*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
 * Paper Link: [UniChart](https://arxiv.org/abs/2305.14761)
-* # [NEW] If you are looking for a more powerful and generic model, checkout our latest model: [ChartInstruct](https://github.com/vis-nlp/ChartInstruct)
+* **[NEW] If you are looking for a more powerful and generic model, checkout our latest model: [ChartInstruct](https://github.com/vis-nlp/ChartInstruct)**
 
 ## UniChart Pretraining Dataset
 Our pretraining dataset is divided into two primary components:
