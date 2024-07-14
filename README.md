@@ -2,7 +2,12 @@
 
 * Authors: [Ahmed Masry](https://ahmedmasryku.github.io/)*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
 * Paper Link: [UniChart](https://arxiv.org/abs/2305.14761)
-* **[NEW] If you are looking for a more powerful and generic model, checkout our latest model: [ChartInstruct](https://github.com/vis-nlp/ChartInstruct)**
+* * **[NEW]** If you are looking for more advanced Chart Models, explore our latest models for chart understanding:
+    * [ChartInstruct](https://github.com/vis-nlp/ChartInstruct)
+        * Our advanced Chart Large Language Model based on LLaVA, supporting LLama2 (7B) and Flan-T5-XL (3B). Perfect for a wide range of chart-related tasks.
+    * [ChartGemma](https://github.com/vis-nlp/ChartGemma)
+        * The state-of-the-art Chart LLM built on PaliGemma (3B), optimized for visual reasoning tasks. 	
+    * **Both models are user-friendly and can be run with just a few lines of code. Public web demos are available! Check out their GitHub repositories for more details.**
 
 ## UniChart Pretraining Dataset
 Our pretraining dataset is divided into two primary components:
