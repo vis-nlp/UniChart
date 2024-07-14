@@ -2,7 +2,7 @@
 
 * Authors: [Ahmed Masry](https://ahmedmasryku.github.io/)*, Parsa Kavehzadeh*, Do Long, Shafiq Joty, Enamul Hoque (*equal contribution)
 * Paper Link: [UniChart](https://arxiv.org/abs/2305.14761)
-* * **[NEW]** If you are looking for more advanced Chart Models, explore our latest models for chart understanding:
+* **[NEW]** If you are looking for more advanced Chart Models, explore our latest models for chart understanding:
     * [ChartInstruct](https://github.com/vis-nlp/ChartInstruct)
         * Our advanced Chart Large Language Model based on LLaVA, supporting LLama2 (7B) and Flan-T5-XL (3B). Perfect for a wide range of chart-related tasks.
     * [ChartGemma](https://github.com/vis-nlp/ChartGemma)
