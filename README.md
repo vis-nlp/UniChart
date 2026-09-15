@@ -111,12 +111,20 @@ If you have any questions about this work, please contact **[Ahmed Masry](https:
 Please cite our paper if you use our models or dataset in your research. 
 
 ```
-@misc{masry2023unichart,
-      title={UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning}, 
-      author={Ahmed Masry and Parsa Kavehzadeh and Xuan Long Do and Enamul Hoque and Shafiq Joty},
-      year={2023},
-      eprint={2305.14761},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{masry-etal-2023-unichart,
+    title = "{U}ni{C}hart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning",
+    author = "Masry, Ahmed  and
+      Kavehzadeh, Parsa  and
+      Do, Xuan Long  and
+      Hoque, Enamul  and
+      Joty, Shafiq",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.906/",
+    doi = "10.18653/v1/2023.emnlp-main.906",
+    pages = "14662--14684"
 }
 ```
